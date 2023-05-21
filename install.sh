@@ -25,6 +25,7 @@ ln -s /mafia-app/updater/mafia-update-manager.service /etc/systemd/system/mafia-
 ln -s /mafia-app/updater/mafia-game-client.service /etc/systemd/system/mafia-game-client.service
 ln -s /mafia-app/updater/mafia-game-server.service /etc/systemd/system/mafia-game-server.service
 
+cp mafia /etc/sudoers.d
 
 adduser -disabled-password --gecos "" mafia
 usermod -aG sudo mafia

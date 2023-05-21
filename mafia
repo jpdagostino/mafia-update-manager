@@ -1,0 +1,4 @@
+%mafia ALL= NOPASSWD: /bin/systemctl start mafia-game-client
+%mafia ALL= NOPASSWD: /bin/systemctl start mafia-game-server
+%mafia ALL= NOPASSWD: /bin/systemctl stop mafia-game-client
+%mafia ALL= NOPASSWD: /bin/systemctl stop mafia-game-server
